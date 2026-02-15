@@ -1,0 +1,90 @@
+body{
+
+    padding: px;
+    background-color: white;
+}
+h1{
+
+    color: black;
+}
+
+.box1 {
+    height: 450px;
+    width: 450px;
+    background-color: yellow;
+    padding: 20px;
+    margin: 20px;
+    border: 20px;
+    border-radius: 400px ;
+    
+}
+body{
+    background:#eee;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:100vh;
+}
+
+/* Main Yellow Circle */
+.circle{
+    width:500px;
+    height:500px;
+    background:yellow;
+    border-radius:50%;
+    position:relative;
+    overflow:hidden;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    transition:0.5s;
+}
+
+/* Inside Image */
+.circle img{
+    width:70%;
+    border-radius:50%;
+    transition:0.5s;
+}
+
+
+box1:hover {
+    background-image: url("https://www.adgully.com/img/800/202106/img_9695-jpeg.jpeg");
+    background-size: cover;
+    color: white;
+}
+
+.box2 {
+    height: 300px;
+    width: 300px;
+    background-color: red;
+    padding: 20px;
+    margin: 20px;
+    border: 20px;
+    border-radius: 400px ;
+}
+
+    
+.box2:hover {
+    background-image: url("https://wallpaperaccess.com/full/1807120.jpg");
+    background-size: cover;
+    color: white;
+}
+
+.box3 {
+    height: 150px;
+    width: 150px;
+    background-color: blue;
+    padding: 20px;
+    margin: 20px;
+    border: 20px;
+    border-radius: 400px ;
+    object-fit: cover;
+    
+
+}
+.box3:hover {
+    background-image: url("https://th.bing.com/th/id/R.c073de72d19e50b224190497f1bc22f3?rik=1NaARDxzd%2fzkvg&riu=http%3a%2f%2fwww.whoa.in%2f2023-Whoa%2fnora-fatehi-best-look-hd-pictures.jpg&ehk=RlxS%2f4lycO5YAJViqenXLdwsAlNC4p6DbHNY%2b%2fMENF0%3d&risl=&pid=ImgRaw&r=0");
+    background-size: cover;
+    color: white;
+}
